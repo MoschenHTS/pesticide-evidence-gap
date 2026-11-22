@@ -1,0 +1,15 @@
+{
+  "title": "Pesticide evidence gap — bibliometric pipeline for toxicity research by register status",
+  "upload_type": "software",
+  "description": "Code, configuration and result summaries for a bibliometric analysis relating toxicity research on 295 pesticide active ingredients applied in the Global South to their status in the EU, US and Canadian registers, to research funders and to Northern market exits. Third-party data are not redistributed; sources and expected file names are listed in docs/data_sources.md.",
+  "creators": [
+    {
+      "name": "Moschen, Henrique Tamanini Silva",
+      "orcid": "0000-0002-1920-8915",
+      "affiliation": "Toxinology Laboratory, Center for Molecular Biotechnology, University of Brasília (UnB), Brasília, DF, Brazil"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["bibliometrics", "scientometrics", "pesticides", "toxicology", "regulatory science", "epistemic justice", "Global South", "research funding", "PubMed", "OpenAlex"]
+}
