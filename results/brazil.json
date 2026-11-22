@@ -1,0 +1,243 @@
+{
+ "min_brazil_use_t": 50,
+ "primary": {
+  "n": 126,
+  "by_group": {
+   "authorized": 107,
+   "absent from Northern registers": 9,
+   "withdrawn: hazard/treaty": 5,
+   "lapsed: other reason": 5
+  },
+  "groups": {
+   "withdrawn": [
+    0.55208,
+    0.34638,
+    0.87994
+   ],
+   "lapsed": [
+    0.64131,
+    0.38049,
+    1.08092
+   ],
+   "absent": [
+    0.12839,
+    0.06773,
+    0.24338
+   ]
+  },
+  "elasticity_brazil_use": 0.39669,
+  "registers": {
+   "not_EU": [
+    0.92844,
+    0.53537,
+    1.6101
+   ],
+   "not_US": [
+    0.36639,
+    0.22226,
+    0.604
+   ],
+   "not_CA": [
+    1.31469,
+    0.66059,
+    2.6165
+   ],
+   "joint": {
+    "not_EU": [
+     0.88311,
+     0.58275,
+     1.33828
+    ],
+    "not_US": [
+     0.26851,
+     0.14856,
+     0.48531
+    ],
+    "not_CA": [
+     1.79666,
+     1.00833,
+     3.20133
+    ]
+   }
+  },
+  "not_eu_n": 77,
+  "not_eu_us_registered_n": 57
+ },
+ "best_sellers": {
+  "mancozeb": {
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "brazil_t": 16522.94868,
+   "observed": 250.0,
+   "expected_authorized_fit": 578.6929,
+   "ratio": 0.43201
+  },
+  "atrazine": {
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "brazil_t": 19117.15093,
+   "observed": 1410.0,
+   "expected_authorized_fit": 720.67013,
+   "ratio": 1.95651
+  },
+  "acephate": {
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "brazil_t": 26246.49445,
+   "observed": 160.0,
+   "expected_authorized_fit": 1680.20097,
+   "ratio": 0.09523
+  },
+  "chlorothalonil": {
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "brazil_t": 4245.47113,
+   "observed": 252.0,
+   "expected_authorized_fit": 235.14495,
+   "ratio": 1.07168
+  },
+  "chlorpyrifos": {
+   "eu": false,
+   "us": true,
+   "ca": false,
+   "brazil_t": 4695.5545,
+   "observed": 2753.0,
+   "expected_authorized_fit": 2247.23058,
+   "ratio": 1.22506
+  }
+ },
+ "sensitivity": {
+  "at_least_10_t": {
+   "n": 164,
+   "by_group": {
+    "authorized": 139,
+    "absent from Northern registers": 10,
+    "lapsed: other reason": 9,
+    "withdrawn: hazard/treaty": 6
+   },
+   "groups": {
+    "withdrawn": [
+     0.60666,
+     0.36355,
+     1.01234
+    ],
+    "lapsed": [
+     0.46764,
+     0.25932,
+     0.84333
+    ],
+    "absent": [
+     0.13142,
+     0.07299,
+     0.23662
+    ]
+   },
+   "elasticity_brazil_use": 0.30037,
+   "registers": {
+    "not_EU": [
+     0.92563,
+     0.57305,
+     1.49513
+    ],
+    "not_US": [
+     0.34718,
+     0.2164,
+     0.55699
+    ],
+    "not_CA": [
+     1.09585,
+     0.54576,
+     2.20043
+    ],
+    "joint": {
+     "not_EU": [
+      0.93003,
+      0.64876,
+      1.33323
+     ],
+     "not_US": [
+      0.27558,
+      0.15014,
+      0.50582
+     ],
+     "not_CA": [
+      1.50316,
+      0.80843,
+      2.79491
+     ]
+    }
+   },
+   "not_eu_n": 96,
+   "not_eu_us_registered_n": 70,
+   "threshold_t": 10
+  },
+  "any_reported_use": {
+   "n": 190,
+   "by_group": {
+    "authorized": 158,
+    "absent from Northern registers": 12,
+    "lapsed: other reason": 11,
+    "withdrawn: hazard/treaty": 9
+   },
+   "groups": {
+    "withdrawn": [
+     0.81447,
+     0.41007,
+     1.61766
+    ],
+    "lapsed": [
+     0.58686,
+     0.27833,
+     1.2374
+    ],
+    "absent": [
+     0.16525,
+     0.0732,
+     0.37303
+    ]
+   },
+   "elasticity_brazil_use": 0.127,
+   "registers": {
+    "not_EU": [
+     0.85112,
+     0.50259,
+     1.44136
+    ],
+    "not_US": [
+     0.52175,
+     0.31359,
+     0.86808
+    ],
+    "not_CA": [
+     1.01383,
+     0.50726,
+     2.02625
+    ],
+    "joint": {
+     "not_EU": [
+      0.88669,
+      0.57242,
+      1.37351
+     ],
+     "not_US": [
+      0.46386,
+      0.24971,
+      0.86167
+     ],
+     "not_CA": [
+      1.29094,
+      0.66375,
+      2.51077
+     ]
+    }
+   },
+   "not_eu_n": 111,
+   "not_eu_us_registered_n": 77,
+   "threshold_t": 0
+  }
+ }
+}

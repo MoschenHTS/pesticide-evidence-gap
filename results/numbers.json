@@ -1,0 +1,1316 @@
+{
+ "sample": {
+  "n": 295,
+  "authorized": 228,
+  "absent from Northern registers": 32,
+  "lapsed: other reason": 19,
+  "withdrawn: hazard/treaty": 16
+ },
+ "headline": {
+  "combined_tox_pubmed_plus_zh": {
+   "withdrawn": [
+    0.59696,
+    0.35245,
+    1.01111
+   ],
+   "lapsed": [
+    0.53882,
+    0.31815,
+    0.91253
+   ],
+   "absent": [
+    0.21546,
+    0.13122,
+    0.35378
+   ],
+   "elasticity_south_use": 0.38629
+  },
+  "pubmed_tox_only": {
+   "withdrawn": [
+    0.60132,
+    0.3486,
+    1.03724
+   ],
+   "lapsed": [
+    0.54334,
+    0.32131,
+    0.91879
+   ],
+   "absent": [
+    0.20341,
+    0.12271,
+    0.33719
+   ],
+   "elasticity_south_use": 0.37366
+  },
+  "all_topics_combined": {
+   "withdrawn": [
+    0.77057,
+    0.48585,
+    1.22214
+   ],
+   "lapsed": [
+    0.56617,
+    0.36448,
+    0.87947
+   ],
+   "absent": [
+    0.26756,
+    0.17019,
+    0.42064
+   ],
+   "elasticity_south_use": 0.36972
+  },
+  "cas_registry_pubmed": {
+   "withdrawn": [
+    0.76134,
+    0.42832,
+    1.3533
+   ],
+   "lapsed": [
+    0.52869,
+    0.31479,
+    0.88796
+   ],
+   "absent": [
+    0.19637,
+    0.10614,
+    0.36332
+   ],
+   "elasticity_south_use": 0.39416
+  }
+ },
+ "raw_median_papers": {
+  "absent from Northern registers": 27.0,
+  "authorized": 49.0,
+  "lapsed: other reason": 45.0,
+  "withdrawn: hazard/treaty": 101.5
+ },
+ "registers": {
+  "not_EU": {
+   "not_EU": [
+    0.82821,
+    0.48861,
+    1.40385
+   ]
+  },
+  "not_US": {
+   "not_US": [
+    0.43058,
+    0.28787,
+    0.64403
+   ]
+  },
+  "not_CA": {
+   "not_CA": [
+    0.82178,
+    0.44824,
+    1.50661
+   ]
+  },
+  "none_of_three": {
+   "none3": [
+    0.40884,
+    0.26307,
+    0.63538
+   ]
+  },
+  "joint_EU_US_CA": {
+   "not_EU": [
+    0.89211,
+    0.58034,
+    1.37139
+   ],
+   "not_US": [
+    0.41256,
+    0.22756,
+    0.74796
+   ],
+   "not_CA": [
+    1.11449,
+    0.60331,
+    2.0588
+   ]
+  },
+  "US_over_EU_joint": {
+   "median": 0.46935,
+   "ci": [
+    0.23109,
+    1.00177
+   ],
+   "share_US_lt_EU": 0.9725,
+   "reps": 400
+  }
+ },
+ "windows": {
+  "n": 295,
+  "2005-09": {
+   "absent": [
+    0.1762,
+    0.10104,
+    0.30726
+   ],
+   "lapsed": [
+    0.53384,
+    0.33676,
+    0.84626
+   ],
+   "withdrawn": [
+    0.84383,
+    0.48217,
+    1.47677
+   ]
+  },
+  "2010-14": {
+   "absent": [
+    0.21655,
+    0.1291,
+    0.36325
+   ],
+   "lapsed": [
+    0.5871,
+    0.31943,
+    1.07906
+   ],
+   "withdrawn": [
+    0.76491,
+    0.43624,
+    1.34122
+   ]
+  },
+  "2015-19": {
+   "absent": [
+    0.21477,
+    0.12539,
+    0.36788
+   ],
+   "lapsed": [
+    0.49639,
+    0.28247,
+    0.8723
+   ],
+   "withdrawn": [
+    0.59949,
+    0.3355,
+    1.0712
+   ]
+  },
+  "2020-25": {
+   "absent": [
+    0.20777,
+    0.12037,
+    0.35863
+   ],
+   "lapsed": [
+    0.53277,
+    0.31483,
+    0.90158
+   ],
+   "withdrawn": [
+    0.41583,
+    0.24266,
+    0.71256
+   ]
+  }
+ },
+ "funders_openalex": {
+  "n_ingredients": 295,
+  "groups": {
+   "authorized": 228,
+   "absent from Northern registers": 32,
+   "lapsed: other reason": 19,
+   "withdrawn: hazard/treaty": 16
+  },
+  "all": [
+   0.24731,
+   0.15788,
+   0.38739
+  ],
+  "northern": [
+   0.10785,
+   0.0586,
+   0.19848
+  ],
+  "southern": [
+   0.27421,
+   0.17189,
+   0.43744
+  ],
+  "industry": [
+   0.15311,
+   0.06102,
+   0.38418
+  ],
+  "unclassified": [
+   0.20956,
+   0.13557,
+   0.32392
+  ],
+  "share_works_northern_funder": {
+   "absent from Northern registers": 0.05525,
+   "authorized": 0.17526,
+   "lapsed: other reason": 0.13374,
+   "withdrawn: hazard/treaty": 0.12869
+  },
+  "share_works_southern_funder": {
+   "absent from Northern registers": 0.27433,
+   "authorized": 0.21884,
+   "lapsed: other reason": 0.20649,
+   "withdrawn: hazard/treaty": 0.20829
+  },
+  "rule_only": {
+   "northern": [
+    0.10406,
+    0.05595,
+    0.19354
+   ],
+   "southern": [
+    0.27331,
+    0.17164,
+    0.43522
+   ],
+   "unclassified": [
+    0.21037,
+    0.13601,
+    0.3254
+   ],
+   "diff": {
+    "absent_ratio_northern_funded": 0.1041,
+    "absent_ratio_southern_funded": 0.2733,
+    "ratio_of_ratios_N_over_S": 0.381,
+    "ci": [
+     0.243,
+     0.595
+    ],
+    "z": -4.23,
+    "n_ingredients": 295
+   }
+  },
+  "share_works_with_listed_funder": {
+   "absent from Northern registers": 0.25634,
+   "authorized": 0.3618,
+   "lapsed: other reason": 0.31277,
+   "withdrawn: hazard/treaty": 0.30514
+  },
+  "absent_ratio_works_with_listed_funder": [
+   0.18995,
+   0.1167,
+   0.30918
+  ],
+  "northern_funder_share_of_funded_works": {
+   "absent from Northern registers": 0.21554,
+   "authorized": 0.4844,
+   "lapsed: other reason": 0.42759,
+   "withdrawn: hazard/treaty": 0.42175
+  },
+  "southern_funder_share_of_funded_works": {
+   "absent from Northern registers": 1.07018,
+   "authorized": 0.60487,
+   "lapsed: other reason": 0.66021,
+   "withdrawn: hazard/treaty": 0.68259
+  }
+ },
+ "funders_diff": {
+  "absent_ratio_northern_funded": 0.1078,
+  "absent_ratio_southern_funded": 0.2742,
+  "ratio_of_ratios_N_over_S": 0.393,
+  "ci": [
+   0.256,
+   0.603
+  ],
+  "z": -4.27,
+  "n_ingredients": 295
+ },
+ "human": {
+  "sample_n": 295,
+  "total_papers": {
+   "human": 35041,
+   "epi": 6385,
+   "poison": 4278,
+   "mamm": 4742
+  },
+  "zero_paper_share_by_group": {
+   "human": {
+    "absent from Northern registers": 0.094,
+    "authorized": 0.013,
+    "lapsed: other reason": 0.0,
+    "withdrawn: hazard/treaty": 0.0
+   },
+   "epi": {
+    "absent from Northern registers": 0.625,
+    "authorized": 0.404,
+    "lapsed: other reason": 0.263,
+    "withdrawn: hazard/treaty": 0.25
+   },
+   "poison": {
+    "absent from Northern registers": 0.531,
+    "authorized": 0.395,
+    "lapsed: other reason": 0.474,
+    "withdrawn: hazard/treaty": 0.062
+   },
+   "mamm": {
+    "absent from Northern registers": 0.469,
+    "authorized": 0.254,
+    "lapsed: other reason": 0.263,
+    "withdrawn: hazard/treaty": 0.062
+   }
+  },
+  "human": {
+   "n": 295,
+   "withdrawn": [
+    0.873,
+    0.4665,
+    1.6335
+   ],
+   "lapsed": [
+    0.6297,
+    0.3744,
+    1.0589
+   ],
+   "absent": [
+    0.2542,
+    0.1252,
+    0.516
+   ]
+  },
+  "epi": {
+   "n": 295,
+   "withdrawn": [
+    0.9414,
+    0.4437,
+    1.9975
+   ],
+   "lapsed": [
+    0.5373,
+    0.3039,
+    0.95
+   ],
+   "absent": [
+    0.2309,
+    0.0823,
+    0.6476
+   ]
+  },
+  "poison": {
+   "n": 295,
+   "withdrawn": [
+    0.4685,
+    0.1272,
+    1.7264
+   ],
+   "lapsed": [
+    0.4695,
+    0.161,
+    1.3694
+   ],
+   "absent": [
+    0.1967,
+    0.0604,
+    0.641
+   ]
+  },
+  "mamm": {
+   "n": 295,
+   "withdrawn": [
+    0.5849,
+    0.2433,
+    1.4061
+   ],
+   "lapsed": [
+    0.6253,
+    0.269,
+    1.4532
+   ],
+   "absent": [
+    0.1852,
+    0.0786,
+    0.4363
+   ]
+  },
+  "tox_hazard_interaction": {
+   "n": 295,
+   "withdrawn": [
+    0.621,
+    0.3735,
+    1.0324
+   ],
+   "lapsed": [
+    0.5134,
+    0.2963,
+    0.8897
+   ],
+   "absent": [
+    0.2894,
+    0.157,
+    0.5332
+   ],
+   "hazardous_main": [
+    1.395,
+    0.847,
+    2.299
+   ],
+   "absent_x_hazardous": [
+    0.665,
+    0.313,
+    1.414
+   ]
+  },
+  "n_hazardous_by_group": {
+   "absent from Northern registers": 19,
+   "authorized": 93,
+   "lapsed: other reason": 12,
+   "withdrawn: hazard/treaty": 10
+  },
+  "mass_hazardous_thin_human": {
+   "share_of_sample_South_mass": 0.0421,
+   "by_group_kt": {
+    "authorized": 30.5,
+    "withdrawn: hazard/treaty": 0.4,
+    "absent from Northern registers": 31.4,
+    "lapsed: other reason": 4.5
+   }
+  }
+ },
+ "group_shares": {
+  "absent from Northern registers": {
+   "mass": 0.05487,
+   "papers": 0.02346,
+   "papers_per_mass": 0.42748,
+   "median_age": 36.0
+  },
+  "authorized": {
+   "mass": 0.89889,
+   "papers": 0.902,
+   "papers_per_mass": 1.00347,
+   "median_age": 36.0
+  },
+  "lapsed: other reason": {
+   "mass": 0.02124,
+   "papers": 0.02593,
+   "papers_per_mass": 1.22099,
+   "median_age": 40.0
+  },
+  "withdrawn: hazard/treaty": {
+   "mass": 0.025,
+   "papers": 0.04861,
+   "papers_per_mass": 1.9442,
+   "median_age": 52.5
+  }
+ },
+ "selection_flow": {
+  "queries": 74,
+  "records": 98457,
+  "excluded_by_rule": 14720,
+  "excluded_other": 28972,
+  "rule_retained": 54765,
+  "removed_by_step": {
+   "no_ingredient": 21434,
+   "drug_only": 1995,
+   "single_mention": 5880,
+   "publication_type": 38,
+   "tool_use": 66,
+   "efficacy": 692,
+   "pest_in_title": 949,
+   "residue": 755
+  },
+  "selected": 22956
+ },
+ "bombardi_top5": {
+  "mancozeb": {
+   "group": "authorized",
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "observed": 250.0,
+   "expected_authorized_fit": 578.6929,
+   "ratio": 0.43201
+  },
+  "atrazine": {
+   "group": "authorized",
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "observed": 1410.0,
+   "expected_authorized_fit": 720.67013,
+   "ratio": 1.95651
+  },
+  "acephate": {
+   "group": "authorized",
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "observed": 160.0,
+   "expected_authorized_fit": 1680.20097,
+   "ratio": 0.09523
+  },
+  "chlorothalonil": {
+   "group": "authorized",
+   "eu": false,
+   "us": true,
+   "ca": true,
+   "observed": 252.0,
+   "expected_authorized_fit": 235.14495,
+   "ratio": 1.07168
+  },
+  "chlorpyrifos": {
+   "group": "authorized",
+   "eu": false,
+   "us": true,
+   "ca": false,
+   "observed": 2753.0,
+   "expected_authorized_fit": 2247.23058,
+   "ratio": 1.22506
+  }
+ },
+ "missing_papers": {
+  "n_absent": 32,
+  "observed": 1136.0,
+  "expected": 5272.40878,
+  "missing": 4136.40878,
+  "by_ingredient": {
+   "azocyclotin": {
+    "south_t": 155.54345,
+    "observed": 13.0,
+    "expected": 45.46113
+   },
+   "benfuracarb": {
+    "south_t": 548.34303,
+    "observed": 10.0,
+    "expected": 91.68776
+   },
+   "butachlor": {
+    "south_t": 19350.00642,
+    "observed": 84.0,
+    "expected": 247.38119
+   },
+   "cadusafos": {
+    "south_t": 274.92302,
+    "observed": 9.0,
+    "expected": 112.14277
+   },
+   "carbosulfan": {
+    "south_t": 4297.20925,
+    "observed": 68.0,
+    "expected": 339.87617
+   },
+   "cartap": {
+    "south_t": 4194.6857,
+    "observed": 37.0,
+    "expected": 621.66796
+   },
+   "chlorfluazuron": {
+    "south_t": 129.91703,
+    "observed": 28.0,
+    "expected": 90.46256
+   },
+   "diafenthiuron": {
+    "south_t": 1876.95845,
+    "observed": 28.0,
+    "expected": 182.58626
+   },
+   "diniconazole": {
+    "south_t": 291.06207,
+    "observed": 19.0,
+    "expected": 15.27926
+   },
+   "edifenphos": {
+    "south_t": 55.5783,
+    "observed": 9.0,
+    "expected": 8.09188
+   },
+   "ethiprole": {
+    "south_t": 630.14947,
+    "observed": 37.0,
+    "expected": 71.73119
+   },
+   "fenobucarb": {
+    "south_t": 1723.05765,
+    "observed": 28.0,
+    "expected": 340.46013
+   },
+   "fthalide": {
+    "south_t": 100.38,
+    "observed": 0.0,
+    "expected": 18.17051
+   },
+   "iminoctadine": {
+    "south_t": 89.42118,
+    "observed": 1.0,
+    "expected": 15.95378
+   },
+   "iprobenfos": {
+    "south_t": 581.19802,
+    "observed": 7.0,
+    "expected": 38.73547
+   },
+   "isoprocarb": {
+    "south_t": 729.7401,
+    "observed": 26.0,
+    "expected": 236.13682
+   },
+   "isoprothiolane": {
+    "south_t": 3414.93403,
+    "observed": 15.0,
+    "expected": 85.33093
+   },
+   "mefenacet": {
+    "south_t": 3529.6292,
+    "observed": 5.0,
+    "expected": 106.3114
+   },
+   "metolcarb": {
+    "south_t": 183.7733,
+    "observed": 7.0,
+    "expected": 81.90385
+   },
+   "metominostrobin": {
+    "south_t": 140.69588,
+    "observed": 2.0,
+    "expected": 12.16748
+   },
+   "nitenpyram": {
+    "south_t": 198.95865,
+    "observed": 124.0,
+    "expected": 86.816
+   },
+   "omethoate": {
+    "south_t": 4023.05597,
+    "observed": 81.0,
+    "expected": 480.03127
+   },
+   "phoxim": {
+    "south_t": 15073.24563,
+    "observed": 145.0,
+    "expected": 632.89965
+   },
+   "pretilachlor": {
+    "south_t": 5826.8841,
+    "observed": 40.0,
+    "expected": 144.1184
+   },
+   "procymidone": {
+    "south_t": 1188.05732,
+    "observed": 45.0,
+    "expected": 53.75472
+   },
+   "quinalphos": {
+    "south_t": 2266.37507,
+    "observed": 55.0,
+    "expected": 228.88427
+   },
+   "teflubenzuron": {
+    "south_t": 322.1001,
+    "observed": 46.0,
+    "expected": 102.57314
+   },
+   "thiocyclam": {
+    "south_t": 156.45762,
+    "observed": 14.0,
+    "expected": 149.75353
+   },
+   "thiosultap": {
+    "south_t": 4636.7286,
+    "observed": 7.0,
+    "expected": 261.94132
+   },
+   "triazophos": {
+    "south_t": 9438.18547,
+    "observed": 107.0,
+    "expected": 293.39738
+   },
+   "tridemorph": {
+    "south_t": 409.42262,
+    "observed": 2.0,
+    "expected": 13.07896
+   },
+   "validamycin": {
+    "south_t": 1433.25593,
+    "observed": 37.0,
+    "expected": 63.62167
+   }
+  }
+ },
+ "country_absent_share": {
+  "countries": 62,
+  "by_country": {
+   "Algeria": {
+    "iso3": "DZA",
+    "t": 1413.29112,
+    "absent_t": 9.27027,
+    "share": 0.00656
+   },
+   "Angola": {
+    "iso3": "AGO",
+    "t": 551.372,
+    "absent_t": 0.288,
+    "share": 0.00052
+   },
+   "Argentina": {
+    "iso3": "ARG",
+    "t": 226050.2947,
+    "absent_t": 77.83007,
+    "share": 0.00034
+   },
+   "Azerbaijan": {
+    "iso3": "AZE",
+    "t": 59.20388,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Bangladesh": {
+    "iso3": "BGD",
+    "t": 7905.1651,
+    "absent_t": 857.5471,
+    "share": 0.10848
+   },
+   "Belarus": {
+    "iso3": "BLR",
+    "t": 6124.85102,
+    "absent_t": 18.09333,
+    "share": 0.00295
+   },
+   "Bolivia": {
+    "iso3": "BOL",
+    "t": 3354.4083,
+    "absent_t": 7.2226,
+    "share": 0.00215
+   },
+   "Brazil": {
+    "iso3": "BRA",
+    "t": 361261.48505,
+    "absent_t": 6034.18288,
+    "share": 0.0167
+   },
+   "Cameroon": {
+    "iso3": "CMR",
+    "t": 411.763,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Central america & Caribbean": {
+    "iso3": NaN,
+    "t": 843.2976,
+    "absent_t": 17.6306,
+    "share": 0.02091
+   },
+   "Chile": {
+    "iso3": "CHL",
+    "t": 7282.58628,
+    "absent_t": 27.265,
+    "share": 0.00374
+   },
+   "China": {
+    "iso3": "CHN",
+    "t": 470890.95267,
+    "absent_t": 55745.90392,
+    "share": 0.11838
+   },
+   "Colombia": {
+    "iso3": "COL",
+    "t": 22972.12327,
+    "absent_t": 618.49325,
+    "share": 0.02692
+   },
+   "Costa Rica": {
+    "iso3": "CRI",
+    "t": 6972.0342,
+    "absent_t": 32.0202,
+    "share": 0.00459
+   },
+   "Cuba": {
+    "iso3": "CUB",
+    "t": 1776.64045,
+    "absent_t": 1.7234,
+    "share": 0.00097
+   },
+   "Dominican Republic": {
+    "iso3": "DOM",
+    "t": 3749.5089,
+    "absent_t": 59.73515,
+    "share": 0.01593
+   },
+   "Ecuador": {
+    "iso3": "ECU",
+    "t": 16780.8784,
+    "absent_t": 590.0896,
+    "share": 0.03516
+   },
+   "Egypt": {
+    "iso3": "EGY",
+    "t": 5780.86733,
+    "absent_t": 38.0776,
+    "share": 0.00659
+   },
+   "El Salvador": {
+    "iso3": "SLV",
+    "t": 1947.57165,
+    "absent_t": 7.20215,
+    "share": 0.0037
+   },
+   "Ethiopia": {
+    "iso3": "ETH",
+    "t": 33.366,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Ghana": {
+    "iso3": "GHA",
+    "t": 6397.246,
+    "absent_t": 151.096,
+    "share": 0.02362
+   },
+   "Guatemala": {
+    "iso3": "GTM",
+    "t": 8992.35795,
+    "absent_t": 50.5189,
+    "share": 0.00562
+   },
+   "Honduras": {
+    "iso3": "HND",
+    "t": 2610.66165,
+    "absent_t": 30.66665,
+    "share": 0.01175
+   },
+   "India": {
+    "iso3": "IND",
+    "t": 100177.31543,
+    "absent_t": 12018.28855,
+    "share": 0.11997
+   },
+   "Indonesia": {
+    "iso3": "IDN",
+    "t": 37357.47052,
+    "absent_t": 2392.70275,
+    "share": 0.06405
+   },
+   "Ivory Coast": {
+    "iso3": "CIV",
+    "t": 14769.727,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Kazakhstan": {
+    "iso3": "KAZ",
+    "t": 9726.22413,
+    "absent_t": 3.57417,
+    "share": 0.00037
+   },
+   "Kenya": {
+    "iso3": "KEN",
+    "t": 1430.96345,
+    "absent_t": 4.312,
+    "share": 0.00301
+   },
+   "Kyrgyzstan": {
+    "iso3": "KGZ",
+    "t": 11.975,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Malawi": {
+    "iso3": "MWI",
+    "t": 1514.46377,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Malaysia": {
+    "iso3": "MYS",
+    "t": 9925.57673,
+    "absent_t": 93.0641,
+    "share": 0.00938
+   },
+   "Mali": {
+    "iso3": "MLI",
+    "t": 2586.1845,
+    "absent_t": 8.612,
+    "share": 0.00333
+   },
+   "Mexico": {
+    "iso3": "MEX",
+    "t": 43271.43267,
+    "absent_t": 112.12443,
+    "share": 0.00259
+   },
+   "Moldova (the Republic of)": {
+    "iso3": "MDA",
+    "t": 457.055,
+    "absent_t": 0.412,
+    "share": 0.0009
+   },
+   "Morocco": {
+    "iso3": "MAR",
+    "t": 2534.10952,
+    "absent_t": 5.71423,
+    "share": 0.00225
+   },
+   "Mozambique": {
+    "iso3": "MOZ",
+    "t": 2259.18333,
+    "absent_t": 59.713,
+    "share": 0.02643
+   },
+   "Myanmar": {
+    "iso3": "MMR",
+    "t": 1215.166,
+    "absent_t": 70.557,
+    "share": 0.05806
+   },
+   "Namibia": {
+    "iso3": "NAM",
+    "t": 50.65175,
+    "absent_t": 1.80125,
+    "share": 0.03556
+   },
+   "Nicaragua": {
+    "iso3": "NIC",
+    "t": 2392.6237,
+    "absent_t": 22.7046,
+    "share": 0.00949
+   },
+   "Pakistan": {
+    "iso3": "PAK",
+    "t": 17654.26055,
+    "absent_t": 2520.7899,
+    "share": 0.14279
+   },
+   "Panama": {
+    "iso3": "PAN",
+    "t": 1587.24965,
+    "absent_t": 48.07715,
+    "share": 0.03029
+   },
+   "Paraguay": {
+    "iso3": "PRY",
+    "t": 23141.7108,
+    "absent_t": 49.6562,
+    "share": 0.00215
+   },
+   "Peru": {
+    "iso3": "PER",
+    "t": 4741.89553,
+    "absent_t": 171.86873,
+    "share": 0.03624
+   },
+   "Philippines": {
+    "iso3": "PHL",
+    "t": 13950.77008,
+    "absent_t": 1441.3261,
+    "share": 0.10332
+   },
+   "Russian Federation": {
+    "iso3": "RUS",
+    "t": 43678.99762,
+    "absent_t": 0.28625,
+    "share": 1e-05
+   },
+   "Serbia": {
+    "iso3": "SRB",
+    "t": 3924.50515,
+    "absent_t": 0.066,
+    "share": 2e-05
+   },
+   "South Africa": {
+    "iso3": "ZAF",
+    "t": 22632.09317,
+    "absent_t": 258.90415,
+    "share": 0.01144
+   },
+   "Sri Lanka": {
+    "iso3": "LKA",
+    "t": 1952.3206,
+    "absent_t": 44.8168,
+    "share": 0.02296
+   },
+   "Taiwan (Province of China)": {
+    "iso3": "TWN",
+    "t": 2551.96087,
+    "absent_t": 333.88427,
+    "share": 0.13083
+   },
+   "Tanzania, the United Republic of": {
+    "iso3": "TZA",
+    "t": 509.14708,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Thailand": {
+    "iso3": "THA",
+    "t": 47760.37087,
+    "absent_t": 2651.00267,
+    "share": 0.05551
+   },
+   "Tunisia": {
+    "iso3": "TUN",
+    "t": 1071.2428,
+    "absent_t": 2.541,
+    "share": 0.00237
+   },
+   "Turkey": {
+    "iso3": "TUR",
+    "t": 11531.76507,
+    "absent_t": 22.53168,
+    "share": 0.00195
+   },
+   "Turkmenistan": {
+    "iso3": "TKM",
+    "t": 131.12,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Uganda": {
+    "iso3": "UGA",
+    "t": 11.397,
+    "absent_t": 0.0,
+    "share": 0.0
+   },
+   "Ukraine": {
+    "iso3": "UKR",
+    "t": 23035.3797,
+    "absent_t": 17.50203,
+    "share": 0.00076
+   },
+   "Uruguay": {
+    "iso3": "URY",
+    "t": 6485.8654,
+    "absent_t": 13.3542,
+    "share": 0.00206
+   },
+   "Uzbekistan": {
+    "iso3": "UZB",
+    "t": 354.45817,
+    "absent_t": 15.2,
+    "share": 0.04288
+   },
+   "Venezuela": {
+    "iso3": "VEN",
+    "t": 5837.6896,
+    "absent_t": 153.171,
+    "share": 0.02624
+   },
+   "Viet Nam": {
+    "iso3": "VNM",
+    "t": 27351.08668,
+    "absent_t": 7894.95915,
+    "share": 0.28865
+   },
+   "Zambia": {
+    "iso3": "ZMB",
+    "t": 2187.6271,
+    "absent_t": 7.9294,
+    "share": 0.00362
+   },
+   "Zimbabwe": {
+    "iso3": "ZWE",
+    "t": 2902.74502,
+    "absent_t": 38.3422,
+    "share": 0.01321
+   }
+  },
+  "top_by_absent_mass": {
+   "China": 0.11838,
+   "India": 0.11997,
+   "Viet Nam": 0.28865,
+   "Brazil": 0.0167,
+   "Thailand": 0.05551,
+   "Pakistan": 0.14279,
+   "Indonesia": 0.06405,
+   "Philippines": 0.10332
+  },
+  "share_in_top_three_of_absent_mass": 0.79763
+ },
+ "atlas_imputation": {
+  "countries_reported": 99,
+  "countries_imputed": 68,
+  "ssa_countries_reported": 15,
+  "ssa_countries_imputed": 30,
+  "ssa_imputed_kt_all_ingredients": 67.98735,
+  "ssa_reported_kt_all_ingredients": 68.93435,
+  "imputed_share_of_atlas_mass": 0.03132,
+  "sample_imputed_south_kt_by_group": {
+   "absent from Northern registers": 0.85685,
+   "authorized": 73.64238,
+   "lapsed: other reason": 0.50508,
+   "withdrawn: hazard/treaty": 0.94509
+  },
+  "ratios_with_imputed_use": {
+   "withdrawn": [
+    0.60017,
+    0.35406,
+    1.01734
+   ],
+   "lapsed": [
+    0.53915,
+    0.31616,
+    0.91943
+   ],
+   "absent": [
+    0.21321,
+    0.12923,
+    0.35174
+   ]
+  }
+ },
+ "mass": {
+  "atlas_kt_446_ingredients": 2419.4127,
+  "south_share": 0.68563,
+  "china_share_of_absent_south_mass": 0.5877
+ },
+ "crops": {
+  "Rice": {
+   "kt": 173.27588,
+   "absent_share": 0.29602,
+   "ppk_absent": 10.34587,
+   "ppk_authorized": 65.0838
+  },
+  "Soybean": {
+   "kt": 413.71249,
+   "absent_share": 0.00422,
+   "ppk_absent": 33.02452,
+   "ppk_authorized": 13.12674
+  },
+  "Maize": {
+   "kt": 348.12564,
+   "absent_share": 0.01437,
+   "ppk_absent": 11.83919,
+   "ppk_authorized": 14.9136
+  },
+  "Wheat": {
+   "kt": 188.8533,
+   "absent_share": 0.02522,
+   "ppk_absent": 10.6518,
+   "ppk_authorized": 16.7589
+  },
+  "Cotton": {
+   "kt": 99.39774,
+   "absent_share": 0.07127,
+   "ppk_absent": 18.41866,
+   "ppk_authorized": 33.64773
+  },
+  "Citrus": {
+   "kt": 69.59194,
+   "absent_share": 0.05491,
+   "ppk_absent": 13.87048,
+   "ppk_authorized": 59.41179
+  },
+  "Sugarcane": {
+   "kt": 78.16759,
+   "absent_share": 0.03482,
+   "ppk_absent": 22.14968,
+   "ppk_authorized": 21.72594
+  },
+  "Potato": {
+   "kt": 87.51168,
+   "absent_share": 0.01492,
+   "ppk_absent": 13.63287,
+   "ppk_authorized": 14.64057
+  },
+  "Grape": {
+   "kt": 58.78976,
+   "absent_share": 0.00194,
+   "ppk_absent": 21.76275,
+   "ppk_authorized": 95.8167
+  },
+  "Apple": {
+   "kt": 56.03578,
+   "absent_share": 0.03255,
+   "ppk_absent": 19.27254,
+   "ppk_authorized": 80.44888
+  },
+  "Rapeseed": {
+   "kt": 48.16368,
+   "absent_share": 0.01159,
+   "ppk_absent": 11.65263,
+   "ppk_authorized": 23.16098
+  }
+ },
+ "coverage": {
+  "fao_total_kt_region_sum": 3626,
+  "by_region": {
+   "East Asia & Pacific": {
+    "fao_kt": 1240.42,
+    "glopu_kt": 667.24,
+    "atlas_kt": 753.62,
+    "atlas_over_fao": 0.61,
+    "atlas_over_glopu": 1.13
+   },
+   "Europe & Central Asia": {
+    "fao_kt": 489.65,
+    "glopu_kt": 571.38,
+    "atlas_kt": 284.72,
+    "atlas_over_fao": 0.58,
+    "atlas_over_glopu": 0.5
+   },
+   "Latin America & Caribbean": {
+    "fao_kt": 1048.81,
+    "glopu_kt": 891.35,
+    "atlas_kt": 751.21,
+    "atlas_over_fao": 0.72,
+    "atlas_over_glopu": 0.84
+   },
+   "Middle East, North Africa, Afghanistan & Pakistan": {
+    "fao_kt": 90.81,
+    "glopu_kt": 89.93,
+    "atlas_kt": 34.4,
+    "atlas_over_fao": 0.38,
+    "atlas_over_glopu": 0.38
+   },
+   "None": {
+    "fao_kt": 0.0,
+    "glopu_kt": 0.0,
+    "atlas_kt": 3.4,
+    "atlas_over_fao": null,
+    "atlas_over_glopu": null
+   },
+   "North America": {
+    "fao_kt": 538.41,
+    "glopu_kt": 541.97,
+    "atlas_kt": 423.79,
+    "atlas_over_fao": 0.79,
+    "atlas_over_glopu": 0.78
+   },
+   "South Asia": {
+    "fao_kt": 58.54,
+    "glopu_kt": 83.4,
+    "atlas_kt": 110.03,
+    "atlas_over_fao": 1.88,
+    "atlas_over_glopu": 1.32
+   },
+   "Sub-Saharan Africa": {
+    "fao_kt": 159.41,
+    "glopu_kt": 167.83,
+    "atlas_kt": 58.25,
+    "atlas_over_fao": 0.37,
+    "atlas_over_glopu": 0.35
+   }
+  },
+  "africa": {
+   "atlas_countries": 15,
+   "wb_countries": 48,
+   "atlas_kt": 58.2,
+   "share_atlas_mass": 0.0241,
+   "fao_share_world": 0.044,
+   "glopu_ssa_kt": 167.8,
+   "nigeria_glopu_kt": 38.5,
+   "nigeria_fao_kt": 44.3
+  }
+ },
+ "register_crosscheck": {
+  "sample_n": 295,
+  "matched_n": 280,
+  "agreement": {
+   "EU": 0.975,
+   "US": 0.9714,
+   "Canada": 0.9429,
+   "any register": 0.9821
+  },
+  "absent_matched_n": 29,
+  "absent_registered_in_independent_table": 0,
+  "disagreements_any_register": [
+   "benalaxyl",
+   "dichlorprop",
+   "fenoxaprop",
+   "fluazifop",
+   "maneb"
+  ]
+ }
+}

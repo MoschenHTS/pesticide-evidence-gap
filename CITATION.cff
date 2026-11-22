@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: If you use this software or data, please cite it as below.
+title: "Pesticide evidence gap — bibliometric pipeline for toxicity research by register status"
+type: software
+authors:
+  - given-names: Henrique Tamanini Silva
+    family-names: Moschen
+    orcid: https://orcid.org/0000-0002-1920-8915
+    affiliation: Toxinology Laboratory, Center for Molecular Biotechnology, University of Brasília (UnB), Brasília, DF, Brazil
+license: MIT
+repository-code: https://github.com/MoschenHTS/pesticide-evidence-gap
+version: 1.0.0
+date-released: 2026-11-22

@@ -1,0 +1,39 @@
+# All parameters of the analysis. Paths are relative to the repository root.
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  results: results
+
+sample:
+  min_south_use_t: 50          # minimum Southern applied mass (t) for an ingredient to enter the models
+  years: [2005, 2025]          # literature window
+
+windows: [[2005, 2009], [2010, 2014], [2015, 2019], [2020, 2025]]
+
+# Global North for use and author classification (atlas country names / World Bank author-country names)
+north_use_countries: [Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, "Korea (the Republic of)", Latvia, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, "United States of America"]
+north_author_countries: [Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, "Korea, Rep.", Latvia, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, "Slovak Republic", Slovenia, Spain, Sweden, Switzerland, United Kingdom, United States]
+
+event_study:
+  exit_years: [2010, 2020]
+  window: 5
+  min_pre_papers: 5
+  n_matched_controls: 3
+  still_used_t: 200            # Southern use (t) for "still used in the South"
+  placebo_runs: 200
+  review_permutations: 300
+
+seeds:
+  register_bootstrap: 7
+  within_class_permutation: 5
+  stacked_placebo: 2026
+  review_permutation: 99
+
+bootstrap_replicates: 400
+within_class_permutations: 400
+
+# External services (keys are read from the environment, never stored)
+openalex:
+  mailto_env: OPENALEX_MAILTO
+  key_env: OPENALEX_API_KEY
