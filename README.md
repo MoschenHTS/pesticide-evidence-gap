@@ -83,4 +83,4 @@ Code and original data in this repository are released under the [MIT License](L
 
 ## Citation
 
-If you use this code, please cite the paper (full citation to be added on publication). For citing this repository specifically, see [CITATION.cff](CITATION.cff).
+If you use this code, please cite the paper (full citation to be added on publication). For citing this repository specifically, see [CITATION.cff](CITATION.cff). Archive of version 1.0.0: [10.5281/zenodo.24433185](https://doi.org/10.5281/zenodo.24433185).

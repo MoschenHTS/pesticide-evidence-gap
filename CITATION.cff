@@ -11,3 +11,8 @@ license: MIT
 repository-code: https://github.com/MoschenHTS/pesticide-evidence-gap
 version: 1.0.0
 date-released: 2026-11-22
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24433185"
+    description: "Zenodo archive of version 1.0.0"
+doi: "10.5281/zenodo.24433184"
